@@ -1,0 +1,61 @@
+/**
+ * @mainpage Tetris Game Documentation
+ *
+ * @section intro_sec Introduction
+ *
+ * Welcome to the Tetris Game project documentation. This project implements the classic Tetris game using a finite state machine (FSM) for handling the game states and transitions.
+ *
+ * @section build_sec Build Instructions
+ *
+ * To build the project, follow these steps:
+ *
+ * @subsection build_step1 Step 1: Build the project
+ * ```
+ * make
+ * ```
+ * This will compile the source files, create necessary object files, and build the Tetris game executable.
+ *
+ * @subsection build_step2 Step 2: Install the game
+ * ```
+ * make install
+ * ```
+ * This will move the Tetris game executable to the `build` directory.
+ *
+ * @section test_sec Testing Instructions
+ *
+ * To test the project, follow these steps:
+ *
+ * @subsection test_step1 Step 1: Run tests
+ * ```
+ * make test
+ * ```
+ * This will compile and run the tests located in the `tests` directory.
+ *
+ * @subsection test_step2 Step 2: Generate coverage report
+ * ```
+ * make gcov_report
+ * ```
+ * This will generate a code coverage report and open it in the default web browser.
+ *
+ * @section play_sec Playing the Game
+ *
+ * After building and installing the game, you can play it by running the following command:
+ * ```
+ * make play
+ * ```
+ *
+ * @section origin Origin
+ *
+ * To restore the project to its original state, you can type:
+ * ```
+ * make origin
+ * ```
+ *
+ * @section make_all Make all
+ *
+ * To run tests, build documentation, archive the project, and install the game, you can type:
+
+ * ```
+ * make
+ * ```
+ */
